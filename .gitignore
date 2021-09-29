@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Generated Files
+dist
+.npm/
+.cache
+
+# Misc
+.DS_Store
+
