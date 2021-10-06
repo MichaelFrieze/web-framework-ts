@@ -1,14 +1,7 @@
 import axios, { AxiosPromise } from 'axios';
 
-// http://localhost:3000/users
-
-// then((response: AxiosResponse): void => {
-//   this.set(response.data);
-//   console.log('checking resopnse data: ', response.data);
-// });
-
 interface HasId {
-  id: number;
+  id?: number;
 }
 
 export class Sync<T extends HasId> {
