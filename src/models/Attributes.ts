@@ -12,13 +12,13 @@ export class Attributes<T> {
   }
 }
 
-const attrs = new Attributes<UserProps>({
-  id: 5,
-  name: 'asdf',
-  age: 20,
-});
+// const attrs = new Attributes<UserProps>({
+//   id: 5,
+//   name: 'asdf',
+//   age: 20,
+// });
 
-// now we can know the types of each property of the object
-const name = attrs.get('name');
-const age = attrs.get('age');
-const id = attrs.get('id');
+// // now we can know the types of each property of the object
+// const name = attrs.get('name');
+// const age = attrs.get('age');
+// const id = attrs.get('id');
