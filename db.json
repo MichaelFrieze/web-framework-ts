@@ -2,13 +2,23 @@
   "users": [
     {
       "id": 1,
+      "name": "Mike",
+      "age": 33
+    },
+    {
+      "id": 2,
       "name": "Scott",
       "age": 28
     },
     {
-      "name": "new record",
-      "age": 77,
-      "id": 2
+      "id": 3,
+      "name": "Kayla",
+      "age": 31
+    },
+    {
+      "id": 4,
+      "name": "Stephanie",
+      "age": 55
     }
   ]
 }
