@@ -29,7 +29,7 @@ export abstract class View<T extends Model<K>, K> {
     for (let eventKey in eventsMap) {
       const [eventName, selector] = eventKey.split(':');
 
-      fragment.querySelectorAll(selector).forEach((element) => {
+      fragment.querySelectorAll(selector).forEach(element => {
         element.addEventListener(eventName, eventsMap[eventKey]);
       });
     }
