@@ -1,9 +1,9 @@
 import { AxiosPromise, AxiosResponse } from 'axios';
 
 interface ModelAttributes<T> {
-  get<K extends keyof T>(key: K): T[K];
   set(value: T): void;
   getAll(): T;
+  get<K extends keyof T>(key: K): T[K];
 }
 
 interface Sync<T> {
