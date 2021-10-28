@@ -1,8 +1,5 @@
 import { Model } from '../models/Model';
 
-// To pass in for the View generic types:
-// T will be User and K will be UserProps, both from the User model
-// This syntax is nasty IMO
 export abstract class View<T extends Model<K>, K> {
   constructor(public parent: Element, public model: T) {
     this.bindModel();
